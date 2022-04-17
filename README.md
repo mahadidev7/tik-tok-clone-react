@@ -1,11 +1,11 @@
 Tik Tok clone - React - front-end developer
 live: https://lnkd.in/gNXkG_iH
 
-Firebase
-Real-Time Database
-Google log in
-firebase Authentication
-Firebase Hosting
-etc...
+Firebase, <br>
+Real-Time Database, <br>
+Google log in, <br>
+firebase Authentication, <br>
+Firebase Hosting, <br>
+etc... <br>
 
 thank you😊
