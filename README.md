@@ -1,4 +1,4 @@
-Tik Tok clone - React - front-end developer
+Tik Tok clone - React - front-end developer.  <br>
 live: https://lnkd.in/gNXkG_iH
 
 Firebase, <br>
