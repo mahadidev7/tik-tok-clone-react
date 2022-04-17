@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+html{
+  scroll-snap-type: y mandatory;
+}
+a{
+  color: rgb(94, 215, 24);
+  letter-spacing: 1px;
+}
+p{
+  text-shadow: 1px 7px 6px #000000;
+}
+button{
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 6px 18px !important;
+  border: none !important;
+}
+.App{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.app__videos{
+  display: block;
+  position: relative;
+  width: auto;
+  height: 720px;
+  overflow: scroll;
+  width: 410px;
+  scroll-snap-type: y mandatory;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__videos::-webkit-scrollbar{
+  display: none;
+}
+.app__videos{
+  --ms-overflow-style:none;
+  scrollbar-width: none;
+}
+.Auth{
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logInDiv{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background-color: lightblue;
+  border: 1px solid #333;
+  padding: 30px 0;
+  width: 300px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.logInDiv button{
+  border: 1px solid lightblue;
+  margin: 0 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logInDiv img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.logInDiv div{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100%;
+  line-height: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
